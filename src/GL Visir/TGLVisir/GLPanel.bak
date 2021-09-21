@@ -1,0 +1,85 @@
+Unit GLPanel;
+
+Interface
+
+Type
+  TGLPanel = Class(TPanel)
+  Protected
+    Procedure   AdjustSize; Override;
+  Public
+    Scene: TObject;
+    Constructor Create(AOwner: TComponent); Override;
+    Destructor  Destroy; Override;
+  End;
+
+Implementaion
+
+// ---------------------------
+// TGLPanel
+// ---------------------------
+
+Constructor TGLPanel.Create(AOwner: TComponent);
+Var TheOwner: TComponent;
+Begin
+  Inherited Create(AOwner);
+  Scene := Nil;
+  TheOwner := GetUltimateOwner(Self);
+//  LogToFile('TGLPanel.Create(): TheOwner is class ' + TheOwner.ClassName);
+  If TheOwner Is TGLForm Then TGLForm(TheOwner).GLPanels.AddObject('',Self);
+End; // TGLPanel.Create
+
+Destructor TGLPanel.Destroy;
+Begin
+//  LogToFile('TGLPanel.Destroy(' + Name + ')');
+  Inherited;
+End; // TGLPanel.Destroy
+
+Procedure TGLPanel.AdjustSize;
+Begin
+//  LogToFile('TGLPanel.AdjustSize(): Begin');
+  Inherited AdjustSize;
+
+  If AllInitialized And Not (csDesigning In Owner.ComponentState) Then
+//  If TScene3D(Scene.Owner).bInitialized Then
+  Begin
+//    LogToFile('TGLPanel.AdjustSize(): calling Scene.UpdateArea()');
+
+    If Scene <> Nil Then TSceneGL(Scene).UpdateArea(0,0,Width,Height);
+  End;
+
+//  If Not PostThreadMessage(Scene.RenderThread.ThreadID,WM_SIZE,0,Width + (Height Shl 16)) Then
+//   LogToFile('TGLPanel.AdjustSize(' + IntToStr(Scene.WindowHandle) + '): Error = $' + IntToHex(GetLastError,8));
+
+//  If Not PostMessage(Scene.WindowHandle,WM_SIZE,0,Width + (Height Shl 16)) Then
+//   LogToFile('TGLPanel.AdjustSize(' + IntToStr(Scene.WindowHandle) + '): Error = $' + IntToHex(GetLastError,8));
+
+{
+  If Not (csLoading In ComponentState) And HandleAllocated Then
+  Begin
+    If (Scene <> Nil) And (Scene.WindowHandle <> 0) Then
+    Begin
+      LogToFile('TGLPanel.AdjustSize()');
+
+      TheOwner := GetUltimateOwner(Self);
+
+      SetWindowPos(Scene.WindowHandle, 0, 0, 0, Width, Height, SWP_NOACTIVATE Or SWP_NOMOVE Or SWP_NOZORDER);
+
+//      SetWindowPos(Scene.WindowHandle, Handle, 0, 0, Width, Height, SWP_NOSIZE + SWP_NOACTIVATE Or SWP_NOMOVE);
+
+//      SetWindowPos(Scene.WindowHandle, TForm(TheOwner).Handle, 0, 0, Width, Height, SWP_NOACTIVATE Or SWP_NOMOVE);
+
+//      SetWindowPos(TForm(TheOwner).Handle, Scene.WindowHandle, 0, 0, Width, Height, SWP_NOACTIVATE Or SWP_NOMOVE);
+
+//      SetWindowPos(Scene.WindowHandle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE + SWP_NOSIZE);
+    End;
+  End;
+}
+//  LogToFile('TGLPanel.AdjustSize(): End');
+End; // TGLPanel.AdjustSize
+
+Procedure Register;
+Begin
+  RegisterComponents('Samples', [TGLPanel]);
+End; // Register
+
+End.

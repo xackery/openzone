@@ -1,0 +1,86 @@
+[FileVersion]
+Version=6.0
+[Compiler]
+A=8
+B=0
+C=1
+D=1
+E=0
+F=0
+G=1
+H=1
+I=1
+J=1
+K=0
+L=1
+M=0
+N=1
+O=1
+P=1
+Q=0
+R=0
+S=0
+T=0
+U=0
+V=1
+W=0
+X=1
+Y=0
+Z=1
+ShowHints=1
+ShowWarnings=1
+UnitAliases=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[Linker]
+MapFile=0
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=0
+RemoteSymbols=0
+MinStackSize=16384
+MaxStackSize=1048576
+ImageBase=1069547520
+ExeDescription=Toolbar2000 Components (Jordan Russell)
+[Directories]
+OutputDir=
+UnitOutputDir=
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=$(DELPHI)\Lib\Debug;D:\Borland\Delphi6\Projects\FQ\paszlib;D:\Borland\Delphi6\Source\Clx;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\Projects\FileManager;D:\Borland\Delphi6\Projects\Components\PathDlg;D:\Borland\Delphi6\Projects\Components\TipoftheDay;D:\Borland\Delphi6\Projects\Components\ALSTipDlg;D:\Borland\Delphi6\Projects\Toolbar2000\Source;D:\Borland\Delphi6\Projects\JCL1.91-Build1558\jcl\source;D:\Borland\Delphi6\Projects\JCL1.91-Build1558\jcl\source\common;D:\Borland\Delphi6\Projects\JCL1.91-Build1558\jcl\source\windows
+Packages=vcl;rtl;vclx;VclSmp;vclshlctrls;dbrtl;adortl;vcldb;qrpt;bdertl;vcldbx;dsnap;cds;bdecds;teeui;teedb;tee;teeqr;ibxpress;visualclx;visualdbclx;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;inetdb;nmfast;dbexpress;dbxcds;indy;dclOffice2k
+Conditionals=
+DebugSourceDirs=
+UsePackages=0
+[Parameters]
+RunParams=qeynos 127.0.0.1 5999
+HostApplication=
+Launcher=
+UseLauncher=0
+DebugCWD=
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=D:\Borland\Delphi6\Bin\
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=6
+MinorVer=0
+Release=6
+Build=163
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=1
+Locale=1033
+CodePage=1252
+[Version Info Keys]
+CompanyName=Borland Software Corporation
+FileDescription=Borland User's Components
+FileVersion=6.0.6.163
+InternalName=DCLUSR60
+LegalCopyright=Copyright © 1997-2001 Borland Corporation
+LegalTrademarks=
+OriginalFilename=DCLUSR60.BPL
+ProductName=Borland Package Library
+ProductVersion=6.0

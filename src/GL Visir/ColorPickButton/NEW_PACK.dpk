@@ -1,0 +1,51 @@
+package NEW_PACK;
+
+{$R *.RES}
+{$R 'CPBUTTON.dcr'}
+{$R '..\TGLVisir\GLVisir.dcr'}
+{$R 'c:\zip\vcl\ZipMstr.dcr'}
+{$R 'C:\zip\vcl\ZIPDIR.dcr'}
+{$ALIGN ON}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl50,
+  Vclx50;
+
+contains
+  CPButton in 'CPBUTTON.PAS',
+  GLVisir in '..\TGLVisir\GLVisir.pas' {GLVisir: TFrame},
+  Options3D in '..\TGLVisir\Options3D.pas' {Options3DForm},
+  UrickGL in '..\TGLVisir\UrickGL.pas',
+  GLU in '..\TGLVisir\GLU.PAS',
+  GL in '..\TGLVisir\GL.PAS',
+  About3D in '..\TGLVisir\About3D.pas' {AboutBox},
+  U3Dpolys in '..\TGLVisir\U3Dpolys.pas',
+  ZipMstr in 'C:\zip\vcl\ZipMstr.pas',
+  ZCallBck in 'C:\zip\vcl\ZCALLBCK.PAS',
+  UNZDLL in 'C:\zip\vcl\UNZDLL.PAS',
+  ZIPDLL in 'C:\zip\vcl\ZIPDLL.PAS',
+  SortGrid in 'C:\zip\vcl\SortGrid.pas',
+  ZipDir in 'C:\zip\vcl\ZIPDIR.PAS';
+
+end.

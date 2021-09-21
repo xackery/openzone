@@ -1,0 +1,11 @@
+History.TXT
+==========================================================================
+                  FontComboBox and FontListBox
+==========================================================================
+
+ver 1.01  
+- Bugs Fixed
+- Add UpdateAllForms property
+
+ver 1.0  
+- initial release

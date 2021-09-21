@@ -1,0 +1,64 @@
+If you find any problems during installation write us at:
+ support@dreamcompany.com
+
+Latest version of our components can be downloaded from our web site:
+ http://www.dreamcompany.com 
+
+General Notes
+==============================================================
+
+* If you work under C++Builder and encounter problems with Dream Controls try
+  to set "Incremental linking" option off and press "Release" button in 
+  Options|Project|C++ tab.
+
+* Demo project \TRANSP\TRDEMO doesn't work in Borland Delphi2 IDE
+  or CPB1 IDE
+
+* Please install all patches for CPB before installation of our components
+  (for example AViPlay will not work under CPB if you didn't install patches 
+   from Borland)
+
+Common Steps
+==============================================================
+
+1. Uninstall and remove old version (if exists) of Dream Controls freeware.
+
+2. Extract all files to C:\DREAM directory. 
+
+3. Add path C:\DREAM\UNITS to "Library Path" in Environment Options|Library
+
+(You can use any drive instead of C:\)
+
+
+Installation in Delphi 3/4/5/6/7
+==============================================================
+
+1. Run Delphi.
+
+2. Select File->Open  menu option and open the
+   file \UNITS\free.dpk
+
+4. Click Install.
+
+Installation in Delphi 2 and C++Builder 1.0
+==============================================================
+
+1. Run Delphi or C++Builder and select COMPONENTS|INSTALL
+   menu item.
+
+2. Click on the ADD button and add following unit to the components 
+   library:
+     \UNITS\freereg.pas
+
+3. Click OK in the Install Components dialog box. Library will be 
+   recompiled and our components will appear on palette.
+
+
+Installation in C++ Builder 3
+==============================================================
+
+1. Run C++Builder.
+
+2. Open and install following package:    
+     \UNITS\free.bpk
+

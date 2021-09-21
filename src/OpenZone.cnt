@@ -1,0 +1,38 @@
+:Base OpenZone.hlp
+:Title OpenZone
+1 About
+2 OpenZone=OpenZone
+1 Tutorials
+2 OpenZone tutorials=OpenZone_tutorials
+2 Tutorial=Tutorial
+2 Mob Modeling 1: Creating a new creature race=Mob_Modeling_1:_Creating_a_new_creature_race
+2 Mob Modeling 2: Altering your new creature=Mob_Modeling_2:_Altering_your_new_creature
+2 Mob Modeling 3: Altering your creature's structure=Mob_Modeling_3:_Altering_your_creature's_structure
+2 Mob Modeling 4: Altering your animations=Mob_Modeling_4:_Altering_your_animations
+2 Mob Modeling 5: Adding variants=Mob_Modeling_5:_Adding_variants
+2 Mob Modeling 6: Using your new creature with OpenZone=Mob_Modeling_6:_Using_your_new_creature_with_OpenZone
+1 Introduction
+2 The main window=The_main_window
+2 OpenZone folders=OpenZone_folders
+1 Using OpenZone
+2 Creating a new zone from scratch=Creating_a_new_zone_from_scratch
+2 The Ground Editor=The_Ground_Editor
+2 Adding water, lava or PvP areas=Adding_water,_lava_or_PvP_areas
+2 The mesh library=The_mesh_library
+2 Looking at your zone and moving around in it=Looking_at_your_zone_and_moving_around_in_it
+2 Altering your ground's elevation=Altering_your_ground's_elevation
+2 Editing overall zone properties=Editing_overall_zone_properties
+2 Manipulating objects=Manipulating_objects
+2 Adding a light source to your zone=Adding_a_light_source_to_your_zone
+2 General OpenZone display options=General_OpenZone_display_options
+2 Exporting your zone=Exporting_your_zone
+2 Importing objects and entire zones=Importing_objects_and_entire_zones
+2 Adding an OpenZone scene to your existing zone=Adding_an_OpenZone_scene_to_your_existing_zone
+2 Creating and exporting creatures with Anim8or=Creating_and_exporting_creatures_with_Anim8or
+2 Adding object placement hotspots=Adding_object_placement_hotspots
+1 Scripted objects
+2 The scripted objects panel=The_scripted_objects_panel
+2 WindScript
+3 WindScript: the scripting language=WindScript:_the_scripting_language
+3 Scripting language expressions=Scripting_language_expressions
+3 A real-world example=A_real-world_example

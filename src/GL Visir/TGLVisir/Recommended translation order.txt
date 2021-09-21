@@ -1,0 +1,13 @@
+The TGLVisir engine was originally written by someone in Mexico (I think), and if you search for TGLVisir on the web you can probably find the original. Rest assured, this version is VASTLY changed from that one and, short of some class names, bears little resemblance. Over the years there isn't anything I haven't tinkered with.
+
+The first things that should be translated are the Exentia code, which is under the Mozilla public license. I think that might even have originally been C code, though I've extended it somewhat. You could try searching for the original and comparing to my code...I've added to it but haven't changed anything that already existed.
+
+Next move on to Points3D pas. This handles basic primitives like 3D points, lines, planes, frustums, spheres, cones, etc.
+
+Then go to URickGL.pas, which contains TModel (a simple mesh), TRenderable (contains one or more TModels), TSkeletonRenderable (subclass of TRenderable that applies to animated creatures, etc.)
+
+Move on to U3DPolys.pas, which contains TEntity, which is an object that is rendered in the scene.
+
+Last should be GLVisir.pas, which WILL require redesign since it's designed as a Delphi component. A lot of the translation effort will require my assistance in determining what to throw away (which will be a lot). This is what uses the .bmp files, which you won't need at all (they're only included for reference).
+
+Many of the smaller .pas files may or may not be necessary. AbstractComponents.pas, BitmapComponents.pas, and OpenGLGUI.pas all relate to the UI code, where BitmapComponents.pas and OpenGLGUI.pas contain subclasses of the code in AbstractComponents.pas. You won't need BitmapComponents.pas at all and can concentrate entirely on the other two files. The UI code is designed to be thread-safe and the critical section code is vital to this.

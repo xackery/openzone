@@ -1,0 +1,109 @@
+[FileVersion]
+Version=6.0
+[Compiler]
+A=8
+B=0
+C=0
+D=1
+E=0
+F=0
+G=1
+H=1
+I=0
+J=0
+K=0
+L=1
+M=0
+N=1
+O=1
+P=1
+Q=0
+R=0
+S=0
+T=0
+U=0
+V=1
+W=0
+X=1
+Y=2
+Z=1
+ShowHints=1
+ShowWarnings=1
+UnitAliases=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[Linker]
+MapFile=0
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=0
+RemoteSymbols=0
+MinStackSize=16384
+MaxStackSize=1048576
+ImageBase=4194304
+ExeDescription=
+[Directories]
+OutputDir=
+UnitOutputDir=
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=$(DELPHI)\Lib\Debug;D:\Borland\Delphi6\Projects\JCL1.91-Build1558\jcl\lib\D6\debug;c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist;D:\Borland\Delphi6\Demos\ShellControls;D:\Borland\Delphi6\Projects\Toolbar2000\Source;D:\Borland\Delphi6\Projects\memcheck270;D:\Borland\Delphi6\Source\Vcl
+Packages=vcl;rtl;vclx;VclSmp;vclshlctrls;dbrtl;adortl;vcldb;qrpt;bdertl;vcldbx;dsnap;cds;bdecds;teeui;teedb;tee;teeqr;ibxpress;visualclx;visualdbclx;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;inetdb;nmfast;dbexpress;dbxcds;indy;dclOffice2k
+Conditionals=
+DebugSourceDirs=
+UsePackages=0
+[Parameters]
+RunParams=qeynos 127.0.0.1 5999
+HostApplication=
+Launcher=
+UseLauncher=0
+DebugCWD=
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=C:\Program Files\Borland\Delphi6\Bin\
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlSearchPath]
+Count=17
+Item0=$(DELPHI)\Lib\Debug;D:\Borland\Delphi6\Projects\JCL1.91-Build1558\jcl\lib\D6\debug;c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist;D:\Borland\Delphi6\Demos\ShellControls;D:\Borland\Delphi6\Projects\Toolbar2000\Source;D:\Borland\Delphi6\Projects\memcheck270;D:\Borland\Delphi6\Source\Vcl
+Item1=c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist;D:\Borland\Delphi6\Demos\ShellControls;D:\Borland\Delphi6\Projects\Toolbar2000\Source;D:\Borland\Delphi6\Projects\memcheck270;D:\Borland\Delphi6\Source\Vcl
+Item2=$(DELPHI)\Lib\Debug;c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist;D:\Borland\Delphi6\Demos\ShellControls;D:\Borland\Delphi6\Projects\Toolbar2000\Source;D:\Borland\Delphi6\Projects\memcheck270;D:\Borland\Delphi6\Source\Vcl
+Item3=$(DELPHI)\Lib\Debug;D:\Borland\Delphi6\Lib;c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist;D:\Borland\Delphi6\Demos\ShellControls;D:\Borland\Delphi6\Projects\Toolbar2000\Source;D:\Borland\Delphi6\Projects\memcheck270
+Item4=$(DELPHI)\Lib\Debug;c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist;D:\Borland\Delphi6\Demos\ShellControls;D:\Borland\Delphi6\Projects\Toolbar2000\Source;D:\Borland\Delphi6\Projects\memcheck270
+Item5=$(DELPHI)\Lib\Debug;c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist;D:\Borland\Delphi6\Demos\ShellControls;D:\Borland\Delphi6\Projects\Toolbar2000\Source
+Item6=$(DELPHI)\Lib\Debug;c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist;D:\Borland\Delphi6\Demos\ShellControls
+Item7=$(DELPHI)\Lib\Debug;c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist
+Item8=c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI;D:\Borland\Delphi6\Projects\Runtime Object Inspector\zproplist
+Item9=c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib;D:\Borland\Delphi6\Source\ToolsAPI
+Item10=c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv;D:\Borland\Delphi6\Projects\PasZLIB\paszlib
+Item11=c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1;D:\Borland\Delphi6\Projects\UnicodeConv
+Item12=c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar;D:\Borland\Delphi6\Projects\Xdom_3_1
+Item13=c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar
+Item14=$(DELPHI)\Lib\Debug;c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton;D:\Borland\Delphi6\SharedComboBox;D:\Borland\Delphi6\RuntimeToolBar
+Item15=c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir;D:\Borland\Delphi6\GL Visir\ColorPickButton
+Item16=c:\program files\borland\Delphi6\Projects\FQ\paszlib;c:\program files\borland\Delphi6\Source\Clx;C:\Program Files\Borland\Delphi6\zeosctrl;C:\Program Files\Borland\Delphi6\zeosctrl\dbctrls;C:\Program Files\Borland\Delphi6\zeosctrl\utils;C:\Program Files\Borland\Delphi6\zeosdbo;C:\Program Files\Borland\Delphi6\zeosdbo\common;C:\Program Files\Borland\Delphi6\zeosdbo\dbase;D:\Borland\Delphi6\GL Visir\TGLVisir
